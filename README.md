@@ -24,3 +24,5 @@ path => C:\Program Files\Heroku\bin
 # 7) If SSH-Key is not present , generate it using 
 - ssh-keygen -t -rsa
 
+# 8) List all heroku commands
+- heroku --help
