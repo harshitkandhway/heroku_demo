@@ -29,7 +29,7 @@ public class EmployeeResource {
     @PostMapping
     public ResponseEntity<Employee> createEmploee(@RequestBody Employee employee){
         Employee saved = employeeService.create(employee);
-        return ResponseEntity.status(HttpStatus.CREATED).body(saved);
+        return ResponseEntity.status(HttpStatus.OK).body(saved);
     }
 
     @GetMapping("/{id}")
